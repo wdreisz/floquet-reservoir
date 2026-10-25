@@ -1,0 +1,302 @@
+{
+ "memory": {
+  "best_theta_over_pi": 0.45,
+  "best_MC": 5.754004305049879,
+  "dtc_theta_over_pi": 0.95,
+  "dtc_MC": 1.315159962376645,
+  "dtc_order_at_0.95": 0.9737473567048077,
+  "J0_MC_max": 1.0707363244314045,
+  "esn_MC_range": [
+   5.305482016988813,
+   7.817841460366469
+  ],
+  "lags11_MC": 11.00382936220045,
+  "corr_MC_vs_dtc_order": -0.5108851539815699
+ },
+ "forecast": {
+  "sunspots": {
+   "ar_p": 10,
+   "ar_test_nmse": 0.13058123886246684,
+   "persistence_test_nmse": 0.391169945821467,
+   "quantum_reservoir": {
+    "median_test_nmse": 0.3812716048785265,
+    "min": 0.21382460474372086,
+    "max": 0.9838586805012877,
+    "n_seeds": 8,
+    "seeds_where_AR_significantly_better_p05": 7,
+    "seeds_beating_AR": 0,
+    "seeds_where_ESN_significantly_better_p05": 6,
+    "chosen_theta_over_pi": [
+     0.5,
+     0.8,
+     0.65,
+     0.5,
+     0.65,
+     0.65,
+     0.65,
+     0.8
+    ]
+   },
+   "quantum_reservoir_J0": {
+    "median_test_nmse": 0.42481733828327506,
+    "min": 0.3561499451694596,
+    "max": 0.9177130993167321,
+    "n_seeds": 8,
+    "seeds_where_AR_significantly_better_p05": 8,
+    "seeds_beating_AR": 0
+   },
+   "esn": {
+    "median_test_nmse": 0.1674929347721842,
+    "min": 0.14811026334286054,
+    "max": 0.4206018382146156,
+    "n_seeds": 8,
+    "seeds_where_AR_significantly_better_p05": 1,
+    "seeds_beating_AR": 0
+   },
+   "quantum_median_test_by_theta": {
+    "0.2": 0.3815057550970742,
+    "0.35": 0.4688660931999848,
+    "0.5": 0.5987540770459909,
+    "0.65": 0.46966586647410036,
+    "0.8": 0.3965098033340464,
+    "0.95": 0.37899826941461123
+   },
+   "quantum_median_val_by_theta": {
+    "0.2": 0.40126828263289416,
+    "0.35": 0.25860615545177784,
+    "0.5": 0.23019702391160252,
+    "0.65": 0.20954670523215646,
+    "0.8": 0.2349578704928182,
+    "0.95": 0.4009716645809107
+   }
+  },
+  "co2": {
+   "ar_p": 11,
+   "ar_test_nmse": 0.111918639252954,
+   "persistence_test_nmse": 0.5716062815200317,
+   "quantum_reservoir": {
+    "median_test_nmse": 0.20517448746218403,
+    "min": 0.14890907443596213,
+    "max": 0.29996848302636037,
+    "n_seeds": 8,
+    "seeds_where_AR_significantly_better_p05": 7,
+    "seeds_beating_AR": 0,
+    "seeds_where_ESN_significantly_better_p05": 5,
+    "chosen_theta_over_pi": [
+     0.65,
+     0.8,
+     0.5,
+     0.65,
+     0.65,
+     0.35,
+     0.65,
+     0.35
+    ]
+   },
+   "quantum_reservoir_J0": {
+    "median_test_nmse": 0.4934968813603245,
+    "min": 0.36313688151604684,
+    "max": 0.549478649127266,
+    "n_seeds": 8,
+    "seeds_where_AR_significantly_better_p05": 8,
+    "seeds_beating_AR": 0
+   },
+   "esn": {
+    "median_test_nmse": 0.1275576104382191,
+    "min": 0.10267415939222929,
+    "max": 0.22299364848359887,
+    "n_seeds": 8,
+    "seeds_where_AR_significantly_better_p05": 3,
+    "seeds_beating_AR": 2
+   },
+   "quantum_median_test_by_theta": {
+    "0.2": 0.4252098216211068,
+    "0.35": 0.2686322200035061,
+    "0.5": 0.2690728018619747,
+    "0.65": 0.224211953647716,
+    "0.8": 0.31830886616873066,
+    "0.95": 0.4906431419473286
+   },
+   "quantum_median_val_by_theta": {
+    "0.2": 0.4049548251204914,
+    "0.35": 0.30366326184627235,
+    "0.5": 0.308833507870104,
+    "0.65": 0.2544485032105936,
+    "0.8": 0.3484325934847864,
+    "0.95": 0.4968928423579039
+   }
+  }
+ },
+ "shots_MC": {
+  "0.5": {
+   "exact": 5.169896579785128,
+   "10000": 4.265603667763837,
+   "1000": 2.6359715661171284,
+   "100": 1.329483032326504
+  },
+  "0.95": {
+   "exact": 1.315159962376645,
+   "10000": 1.0587584754716004,
+   "1000": 1.0391427778710525,
+   "100": 1.0313777589727913
+  }
+ },
+ "hardware_cost": {
+  "note": "Reading out every step on hardware destroys the state, so the sequence is re-run up to each readout time.",
+  "cycles_total_per_shot_sweep": 95790,
+  "circuit_runs_at_1000_shots": 309000
+ },
+ "rolling_origin": {
+  "sunspots": {
+   "folds": [
+    [
+     0.5,
+     0.6,
+     0.7
+    ],
+    [
+     0.6,
+     0.7,
+     0.8
+    ],
+    [
+     0.7,
+     0.8,
+     0.9
+    ],
+    [
+     0.8,
+     0.9,
+     1.0
+    ]
+   ],
+   "per_fold_median_test_nmse": {
+    "0": {
+     "ar": 0.21161946492466088,
+     "persistence": 0.4416346779821436,
+     "esn": 0.21910174158616824,
+     "quantum_reservoir": 0.2760611135379242,
+     "quantum_reservoir_J0": 0.46183967452901564
+    },
+    "1": {
+     "ar": 0.17772969019972168,
+     "persistence": 0.5062762840470096,
+     "esn": 0.17166276072785605,
+     "quantum_reservoir": 0.2477524811200708,
+     "quantum_reservoir_J0": 0.5314883026813619
+    },
+    "2": {
+     "ar": 0.13797954481525868,
+     "persistence": 0.3774310282451089,
+     "esn": 0.19512859805198313,
+     "quantum_reservoir": 0.783410389991506,
+     "quantum_reservoir_J0": 0.3864755539265927
+    },
+    "3": {
+     "ar": 0.10296830504955846,
+     "persistence": 0.3552237650559462,
+     "esn": 0.10388474445433525,
+     "quantum_reservoir": 0.21695929806977365,
+     "quantum_reservoir_J0": 0.33869414054443114
+    }
+   },
+   "median_test_nmse": {
+    "ar": 0.1578546175074902,
+    "persistence": 0.40953285311362625,
+    "esn": 0.18339567938991957,
+    "quantum_reservoir": 0.26190679732899746,
+    "quantum_reservoir_J0": 0.4241576142278042
+   },
+   "mean_rank": {
+    "ar": 1.25,
+    "persistence": 4.0,
+    "esn": 1.75,
+    "quantum_reservoir": 3.5,
+    "quantum_reservoir_J0": 4.5
+   },
+   "wins": {
+    "ar": 3,
+    "persistence": 0,
+    "esn": 1,
+    "quantum_reservoir": 0,
+    "quantum_reservoir_J0": 0
+   }
+  },
+  "co2": {
+   "folds": [
+    [
+     0.5,
+     0.6,
+     0.7
+    ],
+    [
+     0.6,
+     0.7,
+     0.8
+    ],
+    [
+     0.7,
+     0.8,
+     0.9
+    ],
+    [
+     0.8,
+     0.9,
+     1.0
+    ]
+   ],
+   "per_fold_median_test_nmse": {
+    "0": {
+     "ar": 0.12401215610283958,
+     "persistence": 0.5854974546350655,
+     "esn": 0.1646782699929327,
+     "quantum_reservoir": 0.2511138071752562,
+     "quantum_reservoir_J0": 0.4992927025027154
+    },
+    "1": {
+     "ar": 0.09317730248792498,
+     "persistence": 0.545344226700226,
+     "esn": 0.16231331538530266,
+     "quantum_reservoir": 0.21325044437228302,
+     "quantum_reservoir_J0": 0.4831382355576177
+    },
+    "2": {
+     "ar": 0.09102070008885761,
+     "persistence": 0.5582757025945743,
+     "esn": 0.10285512870010846,
+     "quantum_reservoir": 0.17649630876735806,
+     "quantum_reservoir_J0": 0.4870258917615903
+    },
+    "3": {
+     "ar": 0.13601801696001967,
+     "persistence": 0.6067269445410447,
+     "esn": 0.14838599664716962,
+     "quantum_reservoir": 0.22864815840664676,
+     "quantum_reservoir_J0": 0.5246815003507059
+    }
+   },
+   "median_test_nmse": {
+    "ar": 0.10859472929538228,
+    "persistence": 0.57188657861482,
+    "esn": 0.15534965601623613,
+    "quantum_reservoir": 0.2209493013894649,
+    "quantum_reservoir_J0": 0.49315929713215284
+   },
+   "mean_rank": {
+    "ar": 1.0,
+    "persistence": 5.0,
+    "esn": 2.0,
+    "quantum_reservoir": 3.0,
+    "quantum_reservoir_J0": 4.0
+   },
+   "wins": {
+    "ar": 4,
+    "persistence": 0,
+    "esn": 0,
+    "quantum_reservoir": 0,
+    "quantum_reservoir_J0": 0
+   }
+  }
+ },
+ "statement": "All results: classical simulation on a laptop (NumPy density matrices; reservoir step verified against Qiskit Aer). No quantum hardware used."
+}

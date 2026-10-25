@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qreservoir"
+version = "0.1.0"
+description = "Time-crystal (Floquet) spin chain as a quantum reservoir vs classical echo-state networks on real time series (local simulation)"
+requires-python = ">=3.12,<3.14"
+license = { text = "MIT" }
+dependencies = ["qiskit==2.6.0", "qiskit-aer==0.17.2", "numpy==2.5.4", "scipy==1.18.1", "scikit-learn==1.9.1", "matplotlib==3.11.2", "statsmodels==0.15.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

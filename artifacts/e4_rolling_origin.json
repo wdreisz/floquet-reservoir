@@ -1,0 +1,827 @@
+{
+ "experiment": "E4 rolling-origin cross-validation (fractions train_end, val_end, test_end per fold)",
+ "folds": [
+  [
+   0.5,
+   0.6,
+   0.7
+  ],
+  [
+   0.6,
+   0.7,
+   0.8
+  ],
+  [
+   0.7,
+   0.8,
+   0.9
+  ],
+  [
+   0.8,
+   0.9,
+   1.0
+  ]
+ ],
+ "models": [
+  "ar",
+  "persistence",
+  "esn",
+  "quantum_reservoir",
+  "quantum_reservoir_J0"
+ ],
+ "rows": [
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "ar",
+   "seed": 0,
+   "test_nmse": 0.21161946492466088
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "persistence",
+   "seed": 0,
+   "test_nmse": 0.4416346779821436
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "esn",
+   "seed": 0,
+   "test_nmse": 0.22572694228760465
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "esn",
+   "seed": 1,
+   "test_nmse": 0.31407784270669875
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "esn",
+   "seed": 2,
+   "test_nmse": 0.21247654088473186
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "esn",
+   "seed": 3,
+   "test_nmse": 0.19362723011191615
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "quantum_reservoir",
+   "seed": 0,
+   "test_nmse": 0.2923103855372341
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "quantum_reservoir",
+   "seed": 1,
+   "test_nmse": 0.20903505101498585
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "quantum_reservoir",
+   "seed": 2,
+   "test_nmse": 0.28327520160317116
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "quantum_reservoir",
+   "seed": 3,
+   "test_nmse": 0.26884702547267725
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "quantum_reservoir_J0",
+   "seed": 0,
+   "test_nmse": 0.9795368052871438
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "quantum_reservoir_J0",
+   "seed": 1,
+   "test_nmse": 0.4608438978198704
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "quantum_reservoir_J0",
+   "seed": 2,
+   "test_nmse": 0.46283545123816094
+  },
+  {
+   "series": "sunspots",
+   "fold": 0,
+   "model": "quantum_reservoir_J0",
+   "seed": 3,
+   "test_nmse": 0.43445059910356404
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "ar",
+   "seed": 0,
+   "test_nmse": 0.17772969019972168
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "persistence",
+   "seed": 0,
+   "test_nmse": 0.5062762840470096
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "esn",
+   "seed": 0,
+   "test_nmse": 0.1923509974963976
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "esn",
+   "seed": 1,
+   "test_nmse": 0.1318538686826576
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "esn",
+   "seed": 2,
+   "test_nmse": 0.15783487373944674
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "esn",
+   "seed": 3,
+   "test_nmse": 0.18549064771626536
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "quantum_reservoir",
+   "seed": 0,
+   "test_nmse": 0.348405113910097
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "quantum_reservoir",
+   "seed": 1,
+   "test_nmse": 0.2101362417381194
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "quantum_reservoir",
+   "seed": 2,
+   "test_nmse": 0.18487783179519218
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "quantum_reservoir",
+   "seed": 3,
+   "test_nmse": 0.2853687205020222
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "quantum_reservoir_J0",
+   "seed": 0,
+   "test_nmse": 0.5960747397362464
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "quantum_reservoir_J0",
+   "seed": 1,
+   "test_nmse": 0.4557953695469538
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "quantum_reservoir_J0",
+   "seed": 2,
+   "test_nmse": 0.4669018656264775
+  },
+  {
+   "series": "sunspots",
+   "fold": 1,
+   "model": "quantum_reservoir_J0",
+   "seed": 3,
+   "test_nmse": 0.6573808298419049
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "ar",
+   "seed": 0,
+   "test_nmse": 0.13797954481525868
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "persistence",
+   "seed": 0,
+   "test_nmse": 0.3774310282451089
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "esn",
+   "seed": 0,
+   "test_nmse": 0.3196328594433135
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "esn",
+   "seed": 1,
+   "test_nmse": 0.1916099126780794
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "esn",
+   "seed": 2,
+   "test_nmse": 0.1829836409465314
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "esn",
+   "seed": 3,
+   "test_nmse": 0.19864728342588686
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "quantum_reservoir",
+   "seed": 0,
+   "test_nmse": 1.2509763159686342
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "quantum_reservoir",
+   "seed": 1,
+   "test_nmse": 0.4077197436947257
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "quantum_reservoir",
+   "seed": 2,
+   "test_nmse": 0.38017139888828466
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "quantum_reservoir",
+   "seed": 3,
+   "test_nmse": 1.1591010362882863
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "quantum_reservoir_J0",
+   "seed": 0,
+   "test_nmse": 0.38378492492818717
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "quantum_reservoir_J0",
+   "seed": 1,
+   "test_nmse": 0.38916618292499827
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "quantum_reservoir_J0",
+   "seed": 2,
+   "test_nmse": 0.32018457531497574
+  },
+  {
+   "series": "sunspots",
+   "fold": 2,
+   "model": "quantum_reservoir_J0",
+   "seed": 3,
+   "test_nmse": 0.9793335068314986
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "ar",
+   "seed": 0,
+   "test_nmse": 0.10296830504955846
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "persistence",
+   "seed": 0,
+   "test_nmse": 0.3552237650559462
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "esn",
+   "seed": 0,
+   "test_nmse": 0.12525707926485127
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "esn",
+   "seed": 1,
+   "test_nmse": 0.0880733642562609
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "esn",
+   "seed": 2,
+   "test_nmse": 0.10411557616459222
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "esn",
+   "seed": 3,
+   "test_nmse": 0.10365391274407829
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "quantum_reservoir",
+   "seed": 0,
+   "test_nmse": 0.2880709049896193
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "quantum_reservoir",
+   "seed": 1,
+   "test_nmse": 0.23132721763129593
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "quantum_reservoir",
+   "seed": 2,
+   "test_nmse": 0.20259137850825135
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "quantum_reservoir",
+   "seed": 3,
+   "test_nmse": 0.12189833925106283
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "quantum_reservoir_J0",
+   "seed": 0,
+   "test_nmse": 0.42611272232613684
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "quantum_reservoir_J0",
+   "seed": 1,
+   "test_nmse": 0.32466131216345634
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "quantum_reservoir_J0",
+   "seed": 2,
+   "test_nmse": 0.352726968925406
+  },
+  {
+   "series": "sunspots",
+   "fold": 3,
+   "model": "quantum_reservoir_J0",
+   "seed": 3,
+   "test_nmse": 0.3159558417802523
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "ar",
+   "seed": 0,
+   "test_nmse": 0.12401215610283958
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "persistence",
+   "seed": 0,
+   "test_nmse": 0.5854974546350655
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "esn",
+   "seed": 0,
+   "test_nmse": 0.29896852695940407
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "esn",
+   "seed": 1,
+   "test_nmse": 0.1559877715808654
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "esn",
+   "seed": 2,
+   "test_nmse": 0.17336876840499998
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "esn",
+   "seed": 3,
+   "test_nmse": 0.13982814781527614
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "quantum_reservoir",
+   "seed": 0,
+   "test_nmse": 0.23746979171257748
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "quantum_reservoir",
+   "seed": 1,
+   "test_nmse": 0.3548049003909299
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "quantum_reservoir",
+   "seed": 2,
+   "test_nmse": 0.2647578226379349
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "quantum_reservoir",
+   "seed": 3,
+   "test_nmse": 0.17426107912123343
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "quantum_reservoir_J0",
+   "seed": 0,
+   "test_nmse": 0.5009188659076962
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "quantum_reservoir_J0",
+   "seed": 1,
+   "test_nmse": 0.4976665390977346
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "quantum_reservoir_J0",
+   "seed": 2,
+   "test_nmse": 0.3479221948156968
+  },
+  {
+   "series": "co2",
+   "fold": 0,
+   "model": "quantum_reservoir_J0",
+   "seed": 3,
+   "test_nmse": 0.5268078054630213
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "ar",
+   "seed": 0,
+   "test_nmse": 0.09317730248792498
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "persistence",
+   "seed": 0,
+   "test_nmse": 0.545344226700226
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "esn",
+   "seed": 0,
+   "test_nmse": 0.23234624137291138
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "esn",
+   "seed": 1,
+   "test_nmse": 0.25123440012543546
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "esn",
+   "seed": 2,
+   "test_nmse": 0.09228038939769397
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "esn",
+   "seed": 3,
+   "test_nmse": 0.08332674962748929
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "quantum_reservoir",
+   "seed": 0,
+   "test_nmse": 0.20426689437165177
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "quantum_reservoir",
+   "seed": 1,
+   "test_nmse": 0.26140613206162316
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "quantum_reservoir",
+   "seed": 2,
+   "test_nmse": 0.2222339943729143
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "quantum_reservoir",
+   "seed": 3,
+   "test_nmse": 0.13421344038367933
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "quantum_reservoir_J0",
+   "seed": 0,
+   "test_nmse": 0.4751406072800815
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "quantum_reservoir_J0",
+   "seed": 1,
+   "test_nmse": 0.4911358638351539
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "quantum_reservoir_J0",
+   "seed": 2,
+   "test_nmse": 0.3129686199743672
+  },
+  {
+   "series": "co2",
+   "fold": 1,
+   "model": "quantum_reservoir_J0",
+   "seed": 3,
+   "test_nmse": 0.5612895386727316
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "ar",
+   "seed": 0,
+   "test_nmse": 0.09102070008885761
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "persistence",
+   "seed": 0,
+   "test_nmse": 0.5582757025945743
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "esn",
+   "seed": 0,
+   "test_nmse": 0.17642315512131843
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "esn",
+   "seed": 1,
+   "test_nmse": 0.10536492551927797
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "esn",
+   "seed": 2,
+   "test_nmse": 0.09929033673693026
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "esn",
+   "seed": 3,
+   "test_nmse": 0.10034533188093897
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "quantum_reservoir",
+   "seed": 0,
+   "test_nmse": 0.18620569222924552
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "quantum_reservoir",
+   "seed": 1,
+   "test_nmse": 0.21202378066510771
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "quantum_reservoir",
+   "seed": 2,
+   "test_nmse": 0.16678692530547062
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "quantum_reservoir",
+   "seed": 3,
+   "test_nmse": 0.12788152553155072
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "quantum_reservoir_J0",
+   "seed": 0,
+   "test_nmse": 0.4891001615629007
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "quantum_reservoir_J0",
+   "seed": 1,
+   "test_nmse": 0.48495162196027986
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "quantum_reservoir_J0",
+   "seed": 2,
+   "test_nmse": 0.35916909290885046
+  },
+  {
+   "series": "co2",
+   "fold": 2,
+   "model": "quantum_reservoir_J0",
+   "seed": 3,
+   "test_nmse": 0.5501782426398423
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "ar",
+   "seed": 0,
+   "test_nmse": 0.13601801696001967
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "persistence",
+   "seed": 0,
+   "test_nmse": 0.6067269445410447
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "esn",
+   "seed": 0,
+   "test_nmse": 0.27501796998567196
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "esn",
+   "seed": 1,
+   "test_nmse": 0.13998064764476834
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "esn",
+   "seed": 2,
+   "test_nmse": 0.12143791825551724
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "esn",
+   "seed": 3,
+   "test_nmse": 0.15679134564957087
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "quantum_reservoir",
+   "seed": 0,
+   "test_nmse": 0.2440853808351405
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "quantum_reservoir",
+   "seed": 1,
+   "test_nmse": 0.24299153952868516
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "quantum_reservoir",
+   "seed": 2,
+   "test_nmse": 0.21430477728460837
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "quantum_reservoir",
+   "seed": 3,
+   "test_nmse": 0.1894804320002389
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "quantum_reservoir_J0",
+   "seed": 0,
+   "test_nmse": 0.5102376357996276
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "quantum_reservoir_J0",
+   "seed": 1,
+   "test_nmse": 0.5507963135350036
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "quantum_reservoir_J0",
+   "seed": 2,
+   "test_nmse": 0.38015427995792306
+  },
+  {
+   "series": "co2",
+   "fold": 3,
+   "model": "quantum_reservoir_J0",
+   "seed": 3,
+   "test_nmse": 0.5391253649017843
+  }
+ ],
+ "provenance": {
+  "created_utc": "2026-10-25T13:23:53Z",
+  "python": "3.12.13",
+  "qiskit": "2.6.0",
+  "statsmodels": "0.15.0",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "statement": "All results: classical simulation on a laptop (NumPy density matrices; reservoir step verified against Qiskit Aer). No quantum hardware used."
+ }
+}
